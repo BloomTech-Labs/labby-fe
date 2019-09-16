@@ -12,6 +12,8 @@ function App() {
   );
 }
 
+// any time a user interacts with this page a notification will be sent to mixpanel
+
 mixpanel.track("viewed landing");
 
 export default App;

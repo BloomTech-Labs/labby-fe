@@ -3,7 +3,10 @@ import React from "react";
 const Team = props => {
   return (
     <div>
-      <p>This is our sweet ass team</p>
+      <p>team stuff!</p>
+      <div>
+        <p>card action</p>
+      </div>
     </div>
   );
 };

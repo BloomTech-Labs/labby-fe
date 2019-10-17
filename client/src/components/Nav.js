@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Button } from "@material-ui/core"
 
 const Nav = props => {
   return (
@@ -7,13 +8,13 @@ const Nav = props => {
       <h1>Welcome to Labby!</h1>
       <nav>
         <Link to="/">
-          <button>Home</button>
+          <Button variant="contained" style={border: '5px solid pink'}>Home</Button>
         </Link>
         <Link to="/learn">
-          <button>Learn</button>
+          <Button variant="contained">Learn</Button>
         </Link>
         <Link to="/team">
-          <button>Team</button>
+          <Button variant="contained">Team</Button>
         </Link>
       </nav>
     </header>

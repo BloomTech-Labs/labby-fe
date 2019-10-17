@@ -8,7 +8,7 @@ const Nav = props => {
       <h1>Welcome to Labby!</h1>
       <nav>
         <Link to="/">
-          <Button variant="contained" style={border: '5px solid pink'}>Home</Button>
+          <Button variant="contained" >Home</Button>
         </Link>
         <Link to="/learn">
           <Button variant="contained">Learn</Button>

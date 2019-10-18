@@ -1,20 +1,50 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@material-ui/core"
+import { makeStyles } from '@material-ui/core/styles';
+
+
+const useStyles = makeStyles({
+  header: {
+    color: 'white',
+    width: '100%',
+    height: '236px',
+    position: 'absolute',
+    background: '#222E44'
+  },
+  button: {
+    margin: '40px',
+    background: '#33B2DD'
+  }
+  // bullet: {
+  //   display: 'inline-block',
+  //   margin: '30px auto',
+  //   transform: 'scale(0.8)',
+  // },
+  // title: {
+  //   fontSize: 14,
+  // },
+  // pos: {
+  //   marginBottom: 12,
+  // },
+});
 
 const Nav = props => {
+
+  const classes = useStyles();
+
   return (
-    <header>
+    <header className={classes.header}>
       <h1>Welcome to Labby!</h1>
       <nav>
         <Link to="/">
-          <Button variant="contained" >Home</Button>
+          <Button variant="contained" className={classes.button}>Home</Button>
         </Link>
         <Link to="/learn">
-          <Button variant="contained">Learn</Button>
+          <Button variant="contained" className={classes.button}>Learn</Button>
         </Link>
         <Link to="/team">
-          <Button variant="contained">Team</Button>
+          <Button variant="contained" className={classes.button}>Team</Button>
         </Link>
       </nav>
     </header>

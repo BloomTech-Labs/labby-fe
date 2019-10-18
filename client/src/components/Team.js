@@ -8,6 +8,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
 
+
 const { red, blue, green } = require('@material-ui/core/colors');
 // const Button = require('@material-ui/core/Button').default;
 
@@ -16,7 +17,7 @@ const useStyles = makeStyles({
     width: '500px',
     height: '200px',
     margin: '150px auto',
-    backgroundColor: 'gray'
+    backgroundColor: 'white'
   },
   bullet: {
     display: 'inline-block',
@@ -42,39 +43,75 @@ const Team = props => {
      <Card className={classes.card}>
       <CardContent>
         <Typography variant="body2" component="p">
-          Team info stuff
+          We are the Labby team!!
         </Typography>
       </CardContent>
     </Card> 
-      <div style={{ position: 'relative', width: '100%', height: 500 }}>
+      <div style={{ position: 'relative', width: '100%', height: 400 }}>
     <Button onClick={() => setState({ open: true })}>View our Team!</Button>
     <AutoRotatingCarousel
-      label='Get started'
+      label='Github'
       open={state.open}
       onClose={() => setState({ open: false })}
       onStart={() => setState({ open: false })}
       style={{ position: 'absolute' }}
+      autoplay= {false}
     >
       <Slide
-        media={<img src='http://www.icons101.com/icon_png/size_256/id_79394/youtube.png' alt="text"/>}
-        mediaBackgroundStyle={{ backgroundColor: red[400] }}
-        style={{ backgroundColor: red[600] }}
-        title='This is a very cool feature'
-        subtitle='Just using this will blow your mind.'
+        media={<img src='https://ca.slack-edge.com/T4JUEB3ME-UEM5YBTNJ-6971e8bf03da-72' alt="text"/>}
+        mediaBackgroundStyle={{ backgroundColor: 'white' }}
+        style={{ backgroundColor: 'black' }}
+        title='Tyler Foreman'
+        subtitle='Info about person'
       />
       <Slide
-        media={<img src='http://www.icons101.com/icon_png/size_256/id_80975/GoogleInbox.png' alt="text"/>}
-        mediaBackgroundStyle={{ backgroundColor: blue[400] }}
-        style={{ backgroundColor: blue[600] }}
-        title='Ever wanted to be popular?'
-        subtitle='Well just mix two colors and your are good to go!'
+        media={<img src='https://ca.slack-edge.com/T4JUEB3ME-UFCQZEKFB-5c387ada94ad-72' alt="text"/>}
+        mediaBackgroundStyle={{ backgroundColor: 'white' }}
+        style={{ backgroundColor: 'black' }}
+        title='York Cook'
+        subtitle='Info about person'
       />
       <Slide
-        media={<img src='http://www.icons101.com/icon_png/size_256/id_76704/Google_Settings.png' alt="text"/>}
-        mediaBackgroundStyle={{ backgroundColor: green[400] }}
-        style={{ backgroundColor: green[600] }}
-        title='May the force be with you'
-        subtitle='The Force is a metaphysical and ubiquitous power in the Star Wars fictional universe.'
+        media={<img src='https://ca.slack-edge.com/T4JUEB3ME-UGWDTGE2D-304822da85af-72' alt="text"/>}
+        mediaBackgroundStyle={{ backgroundColor: 'white' }}
+        style={{ backgroundColor: 'black' }}
+        title='Laura Daugherty'
+        subtitle='Info about person'
+      />
+      <Slide
+        media={<img src='https://ca.slack-edge.com/T4JUEB3ME-UGFT04U6Q-897737d11303-72' alt="text"/>}
+        mediaBackgroundStyle={{ backgroundColor: 'white' }}
+        style={{ backgroundColor: 'black' }}
+        title='Nate Magera'
+        subtitle='Info about person'
+      />
+      <Slide
+        media={<img src='https://ca.slack-edge.com/T4JUEB3ME-UGCGRFT2P-f2ff4fe456b5-72' alt="text"/>}
+        mediaBackgroundStyle={{ backgroundColor: 'white' }}
+        style={{ backgroundColor: 'black' }}
+        title='Doc Jones'
+        subtitle='Info about person'
+      />
+      <Slide
+        media={<img src='https://ca.slack-edge.com/T4JUEB3ME-UGGFY1C5A-0e7e5f400150-72' alt="text"/>}
+        mediaBackgroundStyle={{ backgroundColor: 'white' }}
+        style={{ backgroundColor: 'black' }}
+        title='Edwin Parker'
+        subtitle='Info about person'
+      />
+      <Slide
+        media={<img src='https://ca.slack-edge.com/T4JUEB3ME-UGGEENM52-2c89c17c2331-72' alt="text"/>}
+        mediaBackgroundStyle={{ backgroundColor: 'white' }}
+        style={{ backgroundColor: 'black' }}
+        title='Efrain Vazquez'
+        subtitle='Info about person'
+      />
+      <Slide
+        media={<img src='https://ca.slack-edge.com/T4JUEB3ME-UHNLF57NG-0e318399719b-72' alt="text"/>}
+        mediaBackgroundStyle={{ backgroundColor: 'white' }}
+        style={{ backgroundColor: 'black' }}
+        title='Zach Imbriaco'
+        subtitle='Info about person'
       />
     </AutoRotatingCarousel>
 </div>

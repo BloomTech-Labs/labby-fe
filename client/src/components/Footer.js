@@ -8,10 +8,14 @@ const useStyles = makeStyles({
     width: '100%',
     background: '#222E44',
     color: 'white',
+    paddingTop: '10px',
+    paddingBottom: '0px',
+    // position: 'fixed',
+    bottom: '0',
   },
 });
 
-const Nav = props => {
+const Footer = props => {
   const classes = useStyles();
 
   return (
@@ -21,4 +25,4 @@ const Nav = props => {
   );
 };
 
-export default Nav;
+export default Footer;

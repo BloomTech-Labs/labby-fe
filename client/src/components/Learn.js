@@ -18,16 +18,20 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
   div: {
-    height: '1000px',
+//     height: '1000px',
     display: 'flex',
     flexFlow: 'column',
     alignItems: 'center',
-    justifyContent: 'space-evenly'
+    justifyContent: 'space-evenly',
+    wordWrap: 'break-word',
   },
   paragraph: {
     color: 'white',
     background: '#222E44',
-    width: '500px'
+    width: '600px',
+    height: '100px',
+    // wordWrap: 'break-word',
+    margin: '50px',
   },
   card: {
     maxWidth: 900,
@@ -39,12 +43,11 @@ const Learn = props => {
 
   return (
     <div className={classes.div}>
-      <Paper className={classes.paragraph}>
-        <Typography variant="h5" component="h3">
-        Project designed to automate the process of manaually assiging incoming
-        Labda students to their Labs teams, saving Lambda over 100 staff hours!
-        </Typography>
-      </Paper>
+      <div className={classes.paragraph}>
+        <p>
+        Project designed to automate the process of manually assigning incoming Lambda students to their Labs teams, saving Lambda over 100 staff hours!
+        </p>
+      </div>
 
       <Card className={classes.card}>
       <CardActionArea>

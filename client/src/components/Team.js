@@ -15,9 +15,11 @@ const { red, blue, green } = require('@material-ui/core/colors');
 const useStyles = makeStyles({
   card: {
     width: '500px',
-    height: '200px',
-    margin: '150px auto',
-    backgroundColor: 'white'
+//     height: '300px',
+    margin: '75px auto',
+    backgroundColor: '#222E44',
+    wordWrap: 'break-word',
+    color: 'white',
   },
   bullet: {
     display: 'inline-block',
@@ -25,6 +27,9 @@ const useStyles = makeStyles({
     transform: 'scale(0.8)',
     border: '3px solid red'
   },
+//   paragraph: {
+//       width: '100px',
+//   },
   title: {
     fontSize: 14,
   },
@@ -33,8 +38,8 @@ const useStyles = makeStyles({
   },
   button: {
     width: '247px',
-    background: '#222E44',
-    color: 'white',
+    background: '#33B2DD',
+    color: 'black',
     margin: '100px'
   }
 });
@@ -49,14 +54,13 @@ const Team = props => {
     <div>
      <Card className={classes.card}>
       <CardContent>
-        <Typography variant="body2" component="p">
-          Our team is really cool. I do not know why some text works and some does not work. Is it the apostrphe? Or isn't it?
+        <Typography variant="body2" className={classes.paragraph}>
+          Our team is really cool. I do not know why some text works and some does not work. Is it the apostrophe? Or isn't it?
         </Typography>
-      </CardContent>
-    </Card> 
-      <div style={{ position: 'relative', width: '100%', height: 400 }}>
-    <Button className={classes.button} onClick={() => setState({ open: true })}>Click to View The Team</Button>
-    <AutoRotatingCarousel
+</CardContent>
+    <div style={{ position: 'relative' }}>
+  <Button className={classes.button} onClick={() => setState({ open: true })}>Click to View The Team</Button>
+  <AutoRotatingCarousel
       label='Github'
       open={state.open}
       onClose={() => setState({ open: false })}
@@ -64,64 +68,68 @@ const Team = props => {
       style={{ position: 'absolute' }}
       autoplay= {false}
     >
-      <Slide
+    <Slide
         media={<img src='https://ca.slack-edge.com/T4JUEB3ME-UEM5YBTNJ-6971e8bf03da-72' alt="text"/>}
         mediaBackgroundStyle={{ backgroundColor: 'white' }}
         style={{ backgroundColor: '#222E44' }}
         title='Tyler Foreman'
         subtitle='Info about person'
       />
-      <Slide
+    <Slide
         media={<img src='https://ca.slack-edge.com/T4JUEB3ME-UFCQZEKFB-5c387ada94ad-72' alt="text"/>}
         mediaBackgroundStyle={{ backgroundColor: 'white' }}
         style={{ backgroundColor: '#222E44' }}
         title='York Cook'
         subtitle='Info about person'
       />
-      <Slide
+    <Slide
         media={<img src='https://ca.slack-edge.com/T4JUEB3ME-UGWDTGE2D-304822da85af-72' alt="text"/>}
         mediaBackgroundStyle={{ backgroundColor: 'white' }}
         style={{ backgroundColor: '#222E44' }}
         title='Laura Daugherty'
         subtitle='Info about person'
       />
-      <Slide
+    <Slide
         media={<img src='https://ca.slack-edge.com/T4JUEB3ME-UGFT04U6Q-897737d11303-72' alt="text"/>}
         mediaBackgroundStyle={{ backgroundColor: 'white' }}
         style={{ backgroundColor: '#222E44' }}
         title='Nate Magera'
         subtitle='Info about person'
       />
-      <Slide
+    <Slide
         media={<img src='https://ca.slack-edge.com/T4JUEB3ME-UGCGRFT2P-f2ff4fe456b5-72' alt="text"/>}
         mediaBackgroundStyle={{ backgroundColor: 'white' }}
         style={{ backgroundColor: '#222E44' }}
         title='Doc Jones'
         subtitle='Info about person'
       />
-      <Slide
+    <Slide
         media={<img src='https://ca.slack-edge.com/T4JUEB3ME-UGGFY1C5A-0e7e5f400150-72' alt="text"/>}
         mediaBackgroundStyle={{ backgroundColor: 'white' }}
         style={{ backgroundColor: '#222E44' }}
         title='Edwin Parker'
         subtitle='Info about person'
       />
-      <Slide
+    <Slide
         media={<img src='https://ca.slack-edge.com/T4JUEB3ME-UGGEENM52-2c89c17c2331-72' alt="text"/>}
         mediaBackgroundStyle={{ backgroundColor: 'white' }}
         style={{ backgroundColor: '#222E44' }}
         title='Efrain Vazquez'
         subtitle='Info about person'
       />
-      <Slide
+    <Slide
         media={<img src='https://ca.slack-edge.com/T4JUEB3ME-UHNLF57NG-0e318399719b-72' alt="text"/>}
         mediaBackgroundStyle={{ backgroundColor: 'white' }}
         style={{ backgroundColor: '#222E44' }}
         title='Zach Imbriaco'
         subtitle='Info about person'
       />
-    </AutoRotatingCarousel>
+  </AutoRotatingCarousel>
 </div>
+      
+    </Card> 
+
+
     </div>
   );
 };

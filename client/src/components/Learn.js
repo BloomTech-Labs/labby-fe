@@ -35,7 +35,8 @@ const useStyles = makeStyles({
   },
   card: {
     maxWidth: 900,
-    maxheight: 900
+    maxheight: 900,
+    marginBottom: '100px'
   },
 });
 const Learn = props => {

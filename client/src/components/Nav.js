@@ -7,13 +7,14 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles({
   header: {
     color: 'white',
-    width: '100%',
+//     width: '100%',
     height: '236px',
     background: '#222E44'
   },
   button: {
     margin: '40px',
-    background: '#33B2DD'
+    background: '#33B2DD',
+    textDecoration: 'none',
   }
 });
 
@@ -36,6 +37,14 @@ const Nav = props => {
         </Link>
       </nav>
     </header>
+  // <div className={classes.header}>
+  //   <h1>Welcome to Labby</h1>
+  //   <nav>
+  //     <Link to="/"><Button className={classes.button}>Home</Button></Link>
+  //     <Link to="/learn">Learn</Link>
+  //     <Link to="/team">Team</Link>
+  //   </nav>
+  // </div>
   );
 };
 

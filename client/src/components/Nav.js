@@ -9,12 +9,14 @@ const useStyles = makeStyles({
     color: 'white',
 //     width: '100%',
     height: '236px',
-    background: '#222E44'
+    background: '#222E44',
+    textDecoration: 'none',
   },
   button: {
     margin: '40px',
     background: '#33B2DD',
     textDecoration: 'none',
+    color: 'white'
   }
 });
 

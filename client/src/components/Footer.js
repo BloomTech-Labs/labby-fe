@@ -10,7 +10,6 @@ const useStyles = makeStyles({
     color: 'white',
     paddingTop: '10px',
     paddingBottom: '0px',
-    position: 'fixed',
     bottom: '0',
   },
 });

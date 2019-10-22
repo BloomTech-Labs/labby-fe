@@ -18,7 +18,6 @@ const useStyles = makeStyles({
   image: {
     width: '400px',
     height: '400px',
-//     marginTop: '100px'
   }
 });
 

@@ -13,12 +13,12 @@ const useStyles = makeStyles({
     width: '247px',
     background: '#222E44',
     color: 'white',
-    margin: '100px'
+    margin: '50px'
   },
   image: {
-    width: '506px',
-    height: '506px',
-    marginTop: '300px'
+    width: '400px',
+    height: '400px',
+//     marginTop: '100px'
   }
 });
 

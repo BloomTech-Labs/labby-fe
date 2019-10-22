@@ -3,6 +3,10 @@
   justify-content: center; */
   text-align: center;
   background: #828384;
-  height: -webkit-fill-available;
+  /* height: -webkit-fill-available; */
 }
 
+.makeStyles-header-1 a {
+  text-decoration: none;
+  color: white;
+}

@@ -2,7 +2,8 @@ import React from "react";
 import "./App.css";
 import mixpanel from "./helpers/mixpanel";
 import { BrowserRouter as Router } from "react-router-dom";
-import { NavLink, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Nav from "./components/Nav";
 import Team from "./components/Team";

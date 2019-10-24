@@ -8,17 +8,11 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 
-// import Movie from "../images/zoom.mp4";
-
-
-//small change
-
 import { makeStyles } from '@material-ui/core/styles';
 
 
 const useStyles = makeStyles({
   div: {
-//     height: '1000px',
     display: 'flex',
     flexFlow: 'column',
     alignItems: 'center',
@@ -30,7 +24,6 @@ const useStyles = makeStyles({
     background: '#222E44',
     width: '600px',
     height: '100px',
-    // wordWrap: 'break-word',
     margin: '50px',
   },
   card: {

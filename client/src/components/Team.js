@@ -45,7 +45,8 @@ const Team = props => {
      <Card className={classes.card}>
       <CardContent>
         <Typography variant="body2" className={classes.paragraph}>
-          Our team is really cool. I do not know why some text works and some does not work. Is it the apostrophe? Or isn't it?
+            Our team consists of seven amazing Lambda School students and one Team Lead. The team worked effectively together to learn about and understand how to work with AWS. AWS services were new to our team and we had to adopt a flexible work style to adjust to all the information we learned. 
+
         </Typography>
         </CardContent>     
     </Card> 

@@ -46,7 +46,7 @@ const Learn = props => {
     <div className={classes.div}>
       <div className={classes.paragraph}>
         <p>
-        Project designed to automate the process of manually assigning incoming Lambda students to their Labs teams, saving Lambda over 100 staff hours!
+          Labby is designed to automate Lambda school’s process of manually assigning incoming student to their teams. The goal of Labby is to save Lambda School hundreds of man hours each year.
         </p>
       </div>
 
@@ -66,7 +66,7 @@ const Learn = props => {
             Click Play
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Labby is a great yada yada important kind of thing that is cool and awesome and a whole bunch of other things. We love Labby, everyone loves Labby even though Labby is a little annoying sometimes. 
+            Labby is a set of Lambda functions that handle processes involved in running the labs program and interacts with students and staff through a slackbot. AWS Lambda and RDS were used to take advantage of the Separation of Concerns principle. We also took advantage of the Principle of Least Privilege to protect Lambda School’s security concerns.
           </Typography>
         </CardContent>
       </CardActionArea>

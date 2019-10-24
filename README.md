@@ -1,161 +1,81 @@
 # labby-fe
-🚫 Note: All lines that start with 🚫 are instructions and should be deleted before this is posted to your portfolio. This is intended to be a guideline, feel free to add your own flare to it.
 
-🚫 The numbers 1️⃣ through 5️⃣ next to each item represent the week that part of the docs needs to be comepleted by.  Make sure to delete the numbers by the end of Labs.
+# Labby React Page
 
-🚫 Each student has a required minimum number of meaningful PRs each week per the rubric. Contributing to docs does NOT count as a PR to meet your weekly requirements.
+You can find the deployed project at https://lambdalabby.com
 
-# 1️⃣ Title of project goes here
+## Contributors
 
-1️⃣ You can find the deployed project at [🚫URL NAME GOES HERE](🚫copy and paste URL here).
 
-## 4️⃣ Contributors
-
-🚫Add contributor info below, make sure add images and edit the social links for each member. Add to or delete these place-holders as needed
-
-|                                       [Student 1](https://github.com/)                                        |                                       [Student 2](https://github.com/)                                        |                                       [Student 3](https://github.com/)                                        |                                       [Student 4](https://github.com/)                                        |                                       [Student 5](https://github.com/)                                        |
+|                                       [Tyler Foreman]                                        |                                       [York Cook]                                       |                                       [Laura Daugherty]                                       |                                       [Nate Magera]                                       |                                       [Doc Jones]                                       |                                [Edwin Parker]                              |                       [Zach Imbriaco]
+            |                       [Efrain Vazquez]
 | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
-|                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-female.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-female.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/)                       |
-|                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/)                 |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/honda0306)             |           [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/Mister-Corn)            |          [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/NandoTheessen)           |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/wvandolah)             |
-| [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) |
+|                      (https://github.com/tjforeman)                       |                      (https://github.com/yorkcook)                       |                      (https://github.com/laura-daugherty)                       |                      (https://github.com/nmagera07)                       |                      (https://github.com/doc-jones)                       |
+|                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/tjforeman)                 |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/yorkcook)             |           [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/laura-daugherty)            |          [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/nmagera07)           |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/doc-jones)             |
+
 
 <br>
 <br>
-
-🚫 4️⃣ Optional examples of using images with links for your tech stack, make sure to change these to fit your project
-
-![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)
-![React](https://img.shields.io/badge/react-v16.7.0--alpha.2-blue.svg)
-![Typescript](https://img.shields.io/npm/types/typescript.svg?style=flat)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b5c4db1c-b10d-42c3-b157-3746edd9e81d/deploy-status)](netlify link goes in these parenthesis)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-
-🚫 more info on using badges [here](https://github.com/badges/shields)
 
 ## Project Overview
 
-1️⃣ [Trello Board](🚫add link to trello board here)
+[Trello Board] https://trello.com/b/JEbECvih/labby
 
-1️⃣ [Product Canvas](🚫add link to product canvas here)
+[Product Canvas]https://www.notion.so/Labby-840c9535e82f4f8483eb1542b8878ea7
 
-1️⃣ [UX Design files](🚫add link to design files here) - 🚫 delete if not applicable
+## Project Description
 
-🚫 Replace lorem ipsum with a description of your project
+Labby is a bot that provides a host of interactive and automated capabilities to Lambda Labs students and staff.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Labby is a system that will be used to automate any process required to make Labs happen. From scheduling lectures and mock interviews to provisioning and maintaining IT resources, Labby will replace nearly all of the manual processes required to make Labs tick.
 
 
-### 4️⃣ Key Features
+### Key Features
 
--    feature one
--    feature two
--    feature three
--    feature four
--    feature five
+-    Automate processes of Labs to save time and money
+-    Uses AWS Lambda functions to save processing time and money
+-    Built with NodeJS so it's familiar to students who will work on this project in the future
 
-## 1️⃣ Tech Stack
+## Tech Stack
 
-### Front end built using:
+### Front end built using: React
 
-#### _Front end framework goes here_
+Why did you choose this framework?
 
-🚫 Why did you choose this framework?
+-   Easy to build out a quick SPA for a project
 
--    point one
--    point two
--    point three
--    point four
+#### Front end deployed to Netlify
 
-🚫List the rest of the front end features and libraries in the same format as the framework above.
+#### [Back end](https://github.com/Lambda-School-Labs/labby-be) built using:
 
-#### Front end deployed to `🚫insert service here`
+#### AWS and NodeJS
 
-#### [Back end](🚫link to back end repo here) built using:
+- KnexJS
+- AWS Lambda
+- Postgresql database
 
-#### 🚫 back end framework goes here
-
--    point one
--    point two
--    point three
-
-🚫 List the rest of the back end end features and libraries in the same format as the framework above
-
-# APIs
-
-## 2️⃣ Authentication API here
-
-🚫Replace text below with a description of the API
-
-Water's like me. It's laaazy ... Boy, it always looks for the easiest way to do things A little happy sunlight shining through there. Let all these little things happen. Don't fight them. Learn to use them. Even the worst thing we can do here is good.
-
-## 2️⃣ Payment API here
-
-🚫Replace text below with a description of the API
-
-This is the way you take out your flustrations. Get away from those little Christmas tree things we used to make in school. Isn't it fantastic that you can change your mind and create all these happy things? Everything's not great in life, but we can still find beauty in it.
-
-## 3️⃣ Misc API here
-
-🚫Replace text below with a description of the API
-
-You can do anything your heart can imagine. In life you need colors. This is where you take out all your hostilities and frustrations. It's better than kicking the puppy dog around and all that so. I'm sort of a softy, I couldn't shoot Bambi except with a camera. Trees get lonely too, so we'll give him a little friend. We'll lay all these little funky little things in there.
-
-## 3️⃣ Misc API here
-
-🚫Replace text below with a description of the API
-
-When you do it your way you can go anywhere you choose. Let your heart take you to wherever you want to be. If I paint something, I don't want to have to explain what it is. A tree needs to be your friend if you're going to paint him. That's a son of a gun of a cloud. Even the worst thing we can do here is good.
-
-## 3️⃣ Misc API here
-
-🚫Replace text below with a description of the API
-
-Volunteering your time; it pays you and your whole community fantastic dividends. Maybe there's a happy little waterfall happening over here. You can spend all day playing with mountains. We don't have to be committed. We are just playing here. You have freedom here. The only guide is your heart. It's cold, but it's beautiful.
-
-# 3️⃣ Environment Variables
-
-In order for the app to function correctly, the user must set up their own environment variables. There should be a .env file containing the following:
-
-🚫These are just examples, replace them with the specifics for your app
-
-    *  REACT_APP_apiKey - this is your Google API key, which can be generated in the Google Cloud Console
-    *  REACT_APP_authDomain - when you set up your Firebase project, this information will be in the dashboard
-    *  REACT_APP_databaseURL - in the Firebase dashboard
-    *  REACT_APP_projectID - in the Firebase dashboard
-    *  REACT_APP_storageBucket - in the Firebase dashboard
-    *  REACT_APP_messagingSenderId - in the Firebase dashboard
-    *  REACT_APP_stripe_API - this is your public Stripe API key, generated in the Stripe dashboard
-    *  REACT_APP_backendURL - optional for your local development server
-    *  REACT_APP_clientid - this is the Stripe_connect clientID, generated in Stripe_connect settings
-    *  REACT_APP_stripe_plan - this is the ID for a second Stripe subscription plan, generated under Stripe products
-
-# 5️⃣ Content Licenses
-
-🚫For all content - images, icons, etc, use this table to document permission of use. Remove the two placeholders and add you content to this table
+# Content Licenses
 
 | Image Filename | Source / Creator | License                                                                      |
 | -------------- | ---------------- | ---------------------------------------------------------------------------- |
-| doodles.png    | Nicole Bennett   | [Creative Commons](https://www.toptal.com/designers/subtlepatterns/doodles/) |
-| rings.svg      | Sam Herbert      | [MIT](https://github.com/SamHerbert/SVG-Loaders)                             |
+| labby.png    | Lambda School   | [Creative Commons]                                                              |
 
-# 4️⃣ Testing
 
-🚫Document what you used for testing and why
+# Testing
 
-# 4️⃣ Installation Instructions
+Used Serverless tests for simple connection testing. Jest for unit and integration testing. 
 
-🚫explain how to install the required dependencies to get this project up and running with yarn and NPM
+# Installation Instructions
+
+- Clone the git repo to your local environment
+- Switch to the cloned directory
+- Switch to the client directory
+- npm i, to install all dependencies locally
+- npm start, to hot reload the page locally so you can make changes
 
 ## Other Scripts
 
-🚫replace these examples with your own
-
-    * typecheck - runs the TypeScript compiler
-    * build - creates a build of the application
-    * start - starts the production server after a build is created
-    * test - runs tests in **tests** directory \* eject - copy the configuration files and dependencies into the project so you have full control over them
+    * npm build - creates a build of the application
 
 # Contributing
 
@@ -195,4 +115,4 @@ These contribution guidelines have been adapted from [this good-Contributing.md-
 
 ## Documentation
 
-See [Backend Documentation](🚫_link to your backend readme here_) for details on the backend of our project.
+See [Backend Documentation](https://github.com/Lambda-School-Labs/labby-be) for details on the backend of our project.

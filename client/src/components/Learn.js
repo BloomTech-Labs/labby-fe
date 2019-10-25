@@ -8,42 +8,44 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 
-import { makeStyles } from '@material-ui/core/styles';
+// import { makeStyles } from '@material-ui/core/styles';
+import "./compstyle.css"
 
-
-const useStyles = makeStyles({
-  div: {
-    display: 'flex',
-    flexFlow: 'column',
-    alignItems: 'center',
-    justifyContent: 'space-evenly',
-    wordWrap: 'break-word',
-  },
-  paragraph: {
-    color: 'white',
-    background: '#222E44',
-    width: '600px',
-    height: '100px',
-    margin: '50px',
-  },
-  card: {
-    maxWidth: 900,
-    maxheight: 900,
-    marginBottom: '100px'
-  },
-});
+// const useStyles = makeStyles({
+//   div: {
+//     display: 'flex',
+//     flexFlow: 'column',
+//     alignItems: 'center',
+//     justifyContent: 'space-evenly',
+//     wordWrap: 'break-word',
+//   },
+//   paragraph: {
+//     color: 'white',
+//     background: '#222E44',
+//     width: '600px',
+//     height: '100px',
+//     padding:'10px'
+//   },
+//   card: {
+//     maxWidth: 900,
+//     maxheight: 900,
+//     marginBottom: '100px'
+//   },
+// });
 const Learn = props => {
-  const classes = useStyles();
+//   const classes = useStyles();
 
   return (
-    <div className={classes.div}>
-      <div className={classes.paragraph}>
-        <p>
+    <div className="wholelearn">
+        <div className="labbyinfo">
+
+        <p className="labbyp">
           Labby is designed to automate Lambda school’s process of manually assigning incoming student to their teams. The goal of Labby is to save Lambda School hundreds of man hours each year.
         </p>
-      </div>
+        </div>
 
-      <Card className={classes.card}>
+
+      <Card className="card">
       <CardActionArea>
         <CardMedia
           component="iframe"

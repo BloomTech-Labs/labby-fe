@@ -1,10 +1,10 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
-
+import "./compstyle.css"
 const CarouselComponent = (props) => {
     return ( 
         <div className="funStuff">
-            <Carousel className="carousel" indicators={false} interval={5000}>
+            <Carousel className="carousel" indicators={true} interval={5000}>
                 <Carousel.Item>
                     <div className="farm">    
                     <img src='https://ca.slack-edge.com/T4JUEB3ME-UEM5YBTNJ-6971e8bf03da-72' alt="text"/>
@@ -47,19 +47,27 @@ const CarouselComponent = (props) => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <div className="farm">
-                    <img src='https://ca.slack-edge.com/T4JUEB3ME-UGGFY1C5A-0e7e5f400150-72' alt="text"/>
-                    <h3>Edwin Parker</h3>
-                    <p>Edwin Parker is a former NYC jazz musician and jazz professor who is currently full stack web development. He likes to focus on the backend languages like NodeJS and Python.</p>
-                    <a href="https://github.com/weparkerjr" rel="noopener noreferrer" target="_blank"><button>Github</button></a>
+                     <img src='https://ca.slack-edge.com/T4JUEB3ME-UGGFY1C5A-0e7e5f400150-72' alt="text"/>
+                        <h3>Edwin Parker</h3>
+                        <p>Edwin Parker is a former NYC jazz musician and jazz professor who is currently full stack web development. He likes to focus on the backend languages like NodeJS and Python.</p>
+                        <a href="https://github.com/weparkerjr" rel="noopener noreferrer" target="_blank"><button>Github</button></a>
                     </div>
                 </Carousel.Item>
                 <Carousel.Item>
                     <div className="farm">
-                    <img src='https://ca.slack-edge.com/T4JUEB3ME-UHNLF57NG-0e318399719b-72' alt="text"/>
-                    <h3>Zach Imbriaco</h3>
-                    <p>Zach a javascript wiz, helping the team overcome any technical issues that arise.</p>
-                    <a href="https://github.com/vaeliwen" rel="noopener noreferrer" target="_blank"><button>Github</button></a>
+                        <img src='https://ca.slack-edge.com/T4JUEB3ME-UHNLF57NG-0e318399719b-72' alt="text"/>
+                        <h3>Zach Imbriaco</h3>
+                        <p>Zach a javascript wiz, helping the team overcome any technical issues that arise.</p>
+                        <a href="https://github.com/vaeliwen" rel="noopener noreferrer" target="_blank"><button>Github</button></a>
                     </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                <div className="farm">
+                    <img src="https://ca.slack-edge.com/T4JUEB3ME-UGGEENM52-2c89c17c2331-72" alt="pic"/>
+                    <h3>Efrain Vazquez</h3>
+                    <p>Efrain is a quick-witted software engineer studying at Lambda School. He’s always ready to overcome a challenge.</p>
+                    <a href="https://github.com/efrainva"><button>Github</button></a>
+                </div>
                 </Carousel.Item>
             </Carousel>
         </div>

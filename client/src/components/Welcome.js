@@ -1,14 +1,11 @@
 import React from "react";
-import { Button } from "@material-ui/core"
-
+import { Button } from "@material-ui/core";
+import { Link } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 
 import Logo from "../images/labby.png";
 
 const useStyles = makeStyles({
-  display: {
-    // display: 'flex'
-  },
   button: {
     width: '247px',
     background: '#222E44',
@@ -28,9 +25,9 @@ const Welcome = () => {
       <div>
         <img src={Logo} alt="labby logo" className={classes.image}/>
       </div>
-      <div>
+      <Link to="/learn">
         <Button variant="contained" className={classes.button}>LEARN MORE</Button>
-      </div>
+      </Link>
     </div>
   );
 };

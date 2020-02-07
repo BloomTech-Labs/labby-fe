@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 import "./compstyle.css"
+
 const CarouselComponent = (props) => {
     return ( 
         <div className="funStuff">
@@ -49,7 +50,7 @@ const CarouselComponent = (props) => {
                     <div className="farm">
                      <img src='https://ca.slack-edge.com/T4JUEB3ME-UGGFY1C5A-0e7e5f400150-72' alt="text"/>
                         <h3>Edwin Parker</h3>
-                        <p>Edwin Parker is a former NYC jazz musician and jazz professor who is currently full stack web development. He likes to focus on the backend languages like NodeJS and Python.</p>
+                        <p>Edwin Parker is a former NYC jazz musician who is currently full stack web development. He likes NodeJS and Python.</p>
                         <a href="https://github.com/weparkerjr" rel="noopener noreferrer" target="_blank"><button>Github</button></a>
                     </div>
                 </Carousel.Item>
